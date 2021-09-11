@@ -202,12 +202,12 @@ This is called an estimate because the connection between the moral values and t
     document.getElementById("sanctity-label").innerHTML  = sancscore  + " / 30"
     document.getElementById("liberty-label").innerHTML   = libscore   + " / 30"
 	
-    carepercent = Math.round ((carescore / (carescore + fairscore + loyalscore + authscore + sancscore + libscore)) * 100)
-    fairpercent = Math.round ((fairscore / (carescore + fairscore + loyalscore + authscore + sancscore + libscore)) * 100)
-    loyalpercent = Math.round ((loyalscore / (carescore + fairscore + loyalscore + authscore + sancscore + libscore)) * 100)
-    authpercent = Math.round ((authscore / (carescore + fairscore + loyalscore + authscore + sancscore + libscore)) * 100)
-    sancpercent = Math.round ((sancscore / (carescore + fairscore + loyalscore + authscore + sancscore + libscore)) * 100)
-    libpercent = Math.round ((libscore / (carescore + fairscore + loyalscore + authscore + sancscore + libscore)) * 100)
+    carepercent  = Math.round (( (carescore  - 10) / ( (carescore + fairscore + loyalscore + authscore + sancscore + libscore) - 50)) * 100)
+    fairpercent  = Math.round (( (fairscore  - 10) / ( (carescore + fairscore + loyalscore + authscore + sancscore + libscore) - 50)) * 100)
+    loyalpercent = Math.round (( (loyalscore - 10) / ( (carescore + fairscore + loyalscore + authscore + sancscore + libscore) - 50)) * 100)
+    authpercent  = Math.round (( (authscore  - 10) / ( (carescore + fairscore + loyalscore + authscore + sancscore + libscore) - 50)) * 100)
+    sancpercent  = Math.round (( (sancscore  - 10) / ( (carescore + fairscore + loyalscore + authscore + sancscore + libscore) - 50)) * 100)
+    libpercent   = Math.round (( (libscore   - 10) / ( (carescore + fairscore + loyalscore + authscore + sancscore + libscore) - 50)) * 100)
 
     //Ideologies      
     ideology = ""
