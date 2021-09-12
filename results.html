@@ -201,12 +201,12 @@ This is called an estimate because the connection between the moral values and t
     document.getElementById("sanctity-label").innerHTML  = sancscore  + " / 30"
     document.getElementById("liberty-label").innerHTML   = libscore   + " / 30"
 	
-    careprop  = carescore  - 10
-    fairprop  = fairscore  - 10
-    loyalprop = loyalscore - 10
-    authprop  = authscore  - 10
-    sancprop  = sancscore  - 10
-    libprop   = libscore   - 10
+    careprop  = care  - 10
+    fairprop  = fairness  - 10
+    loyalprop = loyalty - 10
+    authprop  = authority  - 10
+    sancprop  = sanctity  - 10
+    libprop   = liberty   - 10
 	
     carepercent  = Math.round ((careprop  / (careprop + fairprop + loyalprop + authprop + sancprop + libprop)) * 100)
     fairpercent  = Math.round ((fairprop  / (careprop + fairprop + loyalprop + authprop + sancprop + libprop)) * 100)
