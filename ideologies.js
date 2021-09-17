@@ -85,25 +85,25 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Paleolibertarianism",
  "desc": "Paleolibertarianism is a variant of Libertarianism which stresses inherent incompatibility between progressivism and the concept of liberty, as well as a focus on the importance of inherited culture as a means of maintaining order.",
  "next": "Right-Libertarianism, Bleeding Heart Libertarianism, Anarcho-Capitalism",
- "stats": { "care": 35, "fairness": 40, "loyalty": 40, "authority": 45, "sanctity": 70, "liberty": 85 }},
+ "stats": { "care": 35, "fairness": 40, "loyalty": 30, "authority": 45, "sanctity": 70, "liberty": 85 }},
  
  { "name": "Anarcho-Capitalism",
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
  "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
  "next": "Anarcho-Capitalism, Paleolibertarianism, Bleeding Heart Libertarianism",
- "stats": { "care": 35, "fairness": 42, "loyalty": 20, "authority": 30, "sanctity": 40, "liberty": 80 }},
+ "stats": { "care": 35, "fairness": 42, "loyalty": 25, "authority": 30, "sanctity": 40, "liberty": 100 }},
  
  //Duplicate Ideologies for more accuracy 
  { "name": "Anarcho-Capitalism", //Broader "Sanctity" scores
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
  "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
  "next": "Anarcho-Capitalism, Paleolibertarianism, Bleeding Heart Libertarianism",
- "stats": { "care": 35, "fairness": 42, "loyalty": 20, "authority": 30, "sanctity": 70, "liberty": 80 }},
+ "stats": { "care": 35, "fairness": 42, "loyalty": 25, "authority": 0, "sanctity": 70, "liberty": 100 }},
  
  { "name": "Anarcho-Capitalism", //Broader "Sanctity" scores
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
  "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
  "next": "Anarcho-Capitalism, Paleolibertarianism, Bleeding Heart Libertarianism",
- "stats": { "care": 35, "fairness": 42, "loyalty": 20, "authority": 30, "sanctity": 20, "liberty": 80 }},
+ "stats": { "care": 35, "fairness": 42, "loyalty": 25, "authority": 0, "sanctity": 20, "liberty": 100 }},
 
 ];
