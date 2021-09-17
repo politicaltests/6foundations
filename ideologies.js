@@ -79,13 +79,13 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Neoclassical_liberalism",
  "desc": "Bleeding-Heart Libertarianism is a libertarian political philosophy that focuses on the support for civil liberties and free markets and the concern for social justice and the well-being of the disadvantaged.",
  "next": "Right-Libertarianism, Paleolibertarianism, Anarcho-Capitalism",
- "stats": { "care": 45, "fairness": 42, "loyalty": 20, "authority": 32, "sanctity": 10, "liberty": 70 }},
+ "stats": { "care": 45, "fairness": 42, "loyalty": 20, "authority": 32, "sanctity": 30, "liberty": 70 }},
  
  { "name": "Paleolibertarianism",
  "link": "https://en.wikipedia.org/wiki/Paleolibertarianism",
  "desc": "Paleolibertarianism is a variant of Libertarianism which stresses inherent incompatibility between progressivism and the concept of liberty, as well as a focus on the importance of inherited culture as a means of maintaining order.",
  "next": "Right-Libertarianism, Bleeding Heart Libertarianism, Anarcho-Capitalism",
- "stats": { "care": 35, "fairness": 40, "loyalty": 40, "authority": 35, "sanctity": 45, "liberty": 70 }},
+ "stats": { "care": 35, "fairness": 40, "loyalty": 40, "authority": 35, "sanctity": 70, "liberty": 70 }},
  
  { "name": "Anarcho-Capitalism",
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
