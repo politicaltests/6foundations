@@ -73,37 +73,37 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
  "desc": "Right-Libertarianism is a political philosophy and movement that upholds liberty as a core principle. Right-Libertarians seek to maximize autonomy and political freedom, emphasizing free association, free markets, individualism and voluntary association.",
  "next": "Bleeding Heart Libertarianism, Paleolibertarianism, Anarcho-Capitalism",
- "stats": { "care": 35, "fairness": 42, "loyalty": 28, "authority": 40, "sanctity": 40, "liberty": 85 }},
+ "stats": { "care": 35, "fairness": 42, "loyalty": 25, "authority": 30, "sanctity": 40, "liberty": 85 }},
  
  { "name": "Bleeding-Heart Libertarianism",
  "link": "https://en.wikipedia.org/wiki/Neoclassical_liberalism",
  "desc": "Bleeding-Heart Libertarianism is a libertarian political philosophy that focuses on the support for civil liberties and free markets and the concern for social justice and the well-being of the disadvantaged.",
  "next": "Right-Libertarianism, Paleolibertarianism, Anarcho-Capitalism",
- "stats": { "care": 45, "fairness": 42, "loyalty": 25, "authority": 40, "sanctity": 20, "liberty": 85 }},
+ "stats": { "care": 45, "fairness": 42, "loyalty": 25, "authority": 30, "sanctity": 20, "liberty": 85 }},
  
  { "name": "Paleolibertarianism",
  "link": "https://en.wikipedia.org/wiki/Paleolibertarianism",
  "desc": "Paleolibertarianism is a variant of Libertarianism which stresses inherent incompatibility between progressivism and the concept of liberty, as well as a focus on the importance of inherited culture as a means of maintaining order.",
  "next": "Right-Libertarianism, Bleeding Heart Libertarianism, Anarcho-Capitalism",
- "stats": { "care": 35, "fairness": 40, "loyalty": 30, "authority": 45, "sanctity": 70, "liberty": 85 }},
+ "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 30, "sanctity": 70, "liberty": 85 }},
  
  { "name": "Anarcho-Capitalism",
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
  "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
  "next": "Anarcho-Capitalism, Paleolibertarianism, Bleeding Heart Libertarianism",
- "stats": { "care": 35, "fairness": 42, "loyalty": 25, "authority": 30, "sanctity": 40, "liberty": 100 }},
+ "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 0, "sanctity": 40, "liberty": 100 }},
  
  //Duplicate Ideologies for more accuracy 
  { "name": "Anarcho-Capitalism", //Broader "Sanctity" scores
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
  "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
  "next": "Anarcho-Capitalism, Paleolibertarianism, Bleeding Heart Libertarianism",
- "stats": { "care": 35, "fairness": 42, "loyalty": 25, "authority": 0, "sanctity": 70, "liberty": 100 }},
+ "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 0, "sanctity": 70, "liberty": 100 }},
  
  { "name": "Anarcho-Capitalism", //Broader "Sanctity" scores
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
  "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
  "next": "Anarcho-Capitalism, Paleolibertarianism, Bleeding Heart Libertarianism",
- "stats": { "care": 35, "fairness": 42, "loyalty": 25, "authority": 0, "sanctity": 20, "liberty": 100 }},
+ "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 0, "sanctity": 20, "liberty": 100 }},
 
 ];
