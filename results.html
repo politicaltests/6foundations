@@ -223,12 +223,12 @@ This is called an estimate because the connection between the moral values and t
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow((Math.abs(20 + ((ideologies[i].stats.care      - care      / 100) * 80))), 1.0)
-        dist += Math.pow((Math.abs(20 + ((ideologies[i].stats.fairness  - fairness  / 100) * 80))), 1.0)
-        dist += Math.pow((Math.abs(20 + ((ideologies[i].stats.loyalty   - loyalty   / 100) * 80))), 1.0)
-        dist += Math.pow((Math.abs(20 + ((ideologies[i].stats.authority - authority / 100) * 80))), 1.0)
-        dist += Math.pow((Math.abs(20 + ((ideologies[i].stats.sanctity  - sanctity  / 100) * 80))), 1.0)
-        dist += Math.pow((Math.abs(20 + ((ideologies[i].stats.liberty   - liberty   / 100) * 80))), 1.0) 
+        dist += Math.pow (Math.abs (ideologies[i].stats.care      - (100 * (care      - 20) / 80))), 1.0)
+        dist += Math.pow (Math.abs (ideologies[i].stats.fairness  - (100 * (fairness  - 20) / 80))), 1.0)
+        dist += Math.pow (Math.abs (ideologies[i].stats.loyalty   - (100 * (loyalty   - 20) / 80))), 1.0)
+        dist += Math.pow (Math.abs (ideologies[i].stats.authority - (100 * (authority - 20) / 80))), 1.0)
+        dist += Math.pow (Math.abs (ideologies[i].stats.sanctity  - (100 * (sanctity  - 20) / 80))), 1.0)
+        dist += Math.pow (Math.abs (ideologies[i].stats.liberty   - (100 * (liberty   - 20) / 80))), 1.0) 
 	    
         if (dist < ideodist) {
             ideology = ideologies[i].name
