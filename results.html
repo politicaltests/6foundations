@@ -187,12 +187,12 @@ This is called an estimate because the connection between the moral values and t
     setBarValue("liberty", liberty)
     setBarValue("nolib", nolib)
 
-    carescore  = Math.round (100* ((getQueryVariable("care")      / 100) * 30)) / 100 
-    fairscore  = Math.round (100* ((getQueryVariable("fairness")  / 100) * 30)) / 100 
-    loyalscore = Math.round (100* ((getQueryVariable("loyalty")   / 100) * 30)) / 100 
-    authscore  = Math.round (100* ((getQueryVariable("authority") / 100) * 30)) / 100 
-    sancscore  = Math.round (100* ((getQueryVariable("sanctity")  / 100) * 30)) / 100 
-    libscore   = Math.round (100* ((getQueryVariable("liberty")   / 100) * 30)) / 100 
+    carescore  = Math.round ((getQueryVariable("care")      / 100) * 30)
+    fairscore  = Math.round ((getQueryVariable("fairness")  / 100) * 30) 
+    loyalscore = Math.round ((getQueryVariable("loyalty")   / 100) * 30) 
+    authscore  = Math.round ((getQueryVariable("authority") / 100) * 30) 
+    sancscore  = Math.round ((getQueryVariable("sanctity")  / 100) * 30) 
+    libscore   = Math.round ((getQueryVariable("liberty")   / 100) * 30) 
 	  
     document.getElementById("care-label").innerHTML      = carescore  + " / 30"
     document.getElementById("fairness-label").innerHTML  = fairscore  + " / 30"
