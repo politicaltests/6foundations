@@ -214,6 +214,13 @@ This is called an estimate because the connection between the moral values and t
     authpercent  = Math.round ((authprop  / (careprop + fairprop + loyalprop + authprop + sancprop + libprop)) * 100)
     sancpercent  = Math.round ((sancprop  / (careprop + fairprop + loyalprop + authprop + sancprop + libprop)) * 100)
     libpercent   = Math.round ((libprop   / (careprop + fairprop + loyalprop + authprop + sancprop + libprop)) * 100)
+	
+    careideo  = (100 * (care      - 20) / 80)
+    fairideo  = (100 * (fairness  - 20) / 80)
+    loyalideo = (100 * (loyalty   - 20) / 80)
+    authideo  = (100 * (authority - 20) / 80)
+    sancideo  = (100 * (sanctity  - 20) / 80)
+    libideo   = (100 * (liberty   - 20) / 80)
 
     //Ideologies      
     ideology = ""
@@ -223,12 +230,12 @@ This is called an estimate because the connection between the moral values and t
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow (Math.abs (ideologies[i].stats.care      - (100 * (care      - 20) / 80))), 1.0)
-        dist += Math.pow (Math.abs (ideologies[i].stats.fairness  - (100 * (fairness  - 20) / 80))), 1.0)
-        dist += Math.pow (Math.abs (ideologies[i].stats.loyalty   - (100 * (loyalty   - 20) / 80))), 1.0)
-        dist += Math.pow (Math.abs (ideologies[i].stats.authority - (100 * (authority - 20) / 80))), 1.0)
-        dist += Math.pow (Math.abs (ideologies[i].stats.sanctity  - (100 * (sanctity  - 20) / 80))), 1.0)
-        dist += Math.pow (Math.abs (ideologies[i].stats.liberty   - (100 * (liberty   - 20) / 80))), 1.0) 
+        dist += Math.pow(Math.abs(ideologies[i].stats.care      - careideo ), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.fairness  - fairideo ), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.loyalty   - loyalideo), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.authority - authideo ), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.sanctity  - sancideo ), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.liberty   - libideo  ), 2) 
 	    
         if (dist < ideodist) {
             ideology = ideologies[i].name
