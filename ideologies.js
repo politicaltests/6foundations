@@ -98,13 +98,25 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Conservatism",
  "desc": "Conservatism is a cultural, social, and political philosophy which seeks to promote and to preserve traditional social institutions. n Western culture, conservatives seek to preserve a range of institutions such as organized religion, parliamentary government, and property rights.",
  "next": "Neoconservatism, Right-Wing Populism, Fiscal Conservatism",
- "stats": { "care": 40, "fairness": 40, "loyalty": 52, "authority": 50, "sanctity": 60, "liberty": 60 }},
+ "stats": { "care": 40, "fairness": 40, "loyalty": 52, "authority": 55, "sanctity": 80, "liberty": 60 }},
  
- { "name": "Conservatism",
- "link": "https://en.wikipedia.org/wiki/Conservatism",
- "desc": "Conservatism is a cultural, social, and political philosophy which seeks to promote and to preserve traditional social institutions. n Western culture, conservatives seek to preserve a range of institutions such as organized religion, parliamentary government, and property rights.",
- "next": "Neoconservatism, Right-Wing Populism, Fiscal Conservatism",
- "stats": { "care": 40, "fairness": 40, "loyalty": 52, "authority": 50, "sanctity": 60, "liberty": 60 }},
+ { "name": "Neoconservatism",
+ "link": "https://en.wikipedia.org/wiki/Neoconservatism",
+ "desc": "Neoconservatives typically advocate the promotion of democracy and interventionism in international affairs, including peace through strength, and are known for espousing disdain for communism and political radicalism.",
+ "next": "Conservatism, Right-Wing Populism, Fiscal Conservatism",
+ "stats": { "care": 50, "fairness": 40, "loyalty": 70, "authority": 65, "sanctity": 80, "liberty": 40 }},
+ 
+ { "name": "Right-Wing Populism",
+ "link": "https://en.wikipedia.org/wiki/Right-wing_populism",
+ "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
+ "next": "Neoconservatism, Conservatism, Fiscal Conservatism",
+ "stats": { "care": 40, "fairness": 60, "loyalty": 60, "authority": 60, "sanctity": 80, "liberty": 60 }},
+ 
+ { "name": "Fiscal Conservatism",
+ "link": "https://en.wikipedia.org/wiki/Right-wing_populism",
+ "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
+ "next": "Right-Libertarianism, Conservatism, Neoconservatism",
+ "stats": { "care": 35, "fairness": 40, "loyalty": 40, "authority": 40, "sanctity": 80, "liberty": 70 }},
  
  //Liberty Oriented
  { "name": "Right-Libertarianism",
@@ -154,6 +166,6 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Nazism",
  "desc": "National Socialism, often shortened as Nazism, is a totalitarian ideology that has disdain for liberal democracy and the parliamentary system, and advocates for ideas like antisemitism, anti-communism, scientific racism, German nationalism, and eugenics.",
  "next": "Fascism, National Bolshevism, Stalinism",
- "stats": { "care": 0, "fairness": 0, "loyalty": 90, "authority": 100, "sanctity": 90, "liberty": 0 }},
+ "stats": { "care": 0, "fairness": 0, "loyalty": 100, "authority": 100, "sanctity": 100, "liberty": 0 }},
  
 ];
