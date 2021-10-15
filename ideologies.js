@@ -100,6 +100,12 @@ ideologies = [
  "next": "Neoconservatism, Right-Wing Populism, Fiscal Conservatism",
  "stats": { "care": 40, "fairness": 40, "loyalty": 52, "authority": 50, "sanctity": 60, "liberty": 60 }},
  
+ { "name": "Conservatism",
+ "link": "https://en.wikipedia.org/wiki/Conservatism",
+ "desc": "Conservatism is a cultural, social, and political philosophy which seeks to promote and to preserve traditional social institutions. n Western culture, conservatives seek to preserve a range of institutions such as organized religion, parliamentary government, and property rights.",
+ "next": "Neoconservatism, Right-Wing Populism, Fiscal Conservatism",
+ "stats": { "care": 40, "fairness": 40, "loyalty": 52, "authority": 50, "sanctity": 60, "liberty": 60 }},
+ 
  //Liberty Oriented
  { "name": "Right-Libertarianism",
  "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
