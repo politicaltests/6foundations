@@ -3,13 +3,13 @@ ideologies = [
  { "name": "Progressivism",
  "link": "https://en.wikipedia.org/wiki/Progressivism",
  "desc": "Progressivism is a political philosophy in support of social reform. It argues that progress is being stifled by vast economic inequality and violent conflict between the privileged and unprivileged. It stresses the need for measures that addresses these problems.",
- "next": "Social Democracy, Left-Wing Populism, Liberalism",
+ "next": "Social Democracy, Left-Wing Populism, Progressive Conservatism",
  "stats": { "care": 100, "fairness": 75, "loyalty": 35, "authority": 50, "sanctity": 20, "liberty": 42 }},
  
  { "name": "Social Democracy",
  "link": "https://en.wikipedia.org/wiki/Social_democracy",
  "desc": "Social Democracy advocates for economic and social interventions to promote social justice within the framework of a liberal-democratic polity and a capitalist-oriented mixed economy.",
- "next": "Democratic Socialism, Christian Democracy, Left-Wing Populism",
+ "next": "Democratic Socialism, Distributism, Left-Wing Populism",
  "stats": { "care": 85, "fairness": 80, "loyalty": 35, "authority": 50, "sanctity": 20, "liberty": 35 }},
  
  { "name": "Distributism",
@@ -21,7 +21,7 @@ ideologies = [
  { "name": "Progressive Conservatism",
  "link": "https://en.wikipedia.org/wiki/Progressive_conservatism",
  "desc": "Progressive conservatism is a political ideology which combines conservative and progressive policies. It believes that social reform and progression in areas such as science, economics, education, technology and medicine were necessary to improve human living conditions, but also supports the preservation of tradition.",
- "next": "Christian Democracy, Conservatism, Progressivism",
+ "next": "Distributism, Conservatism, Progressivism, Social Democracy",
  "stats": { "care": 50, "fairness": 50, "loyalty": 50, "authority": 50, "sanctity": 50, "liberty": 50 }},
  
  //Fairness Oriented
@@ -116,9 +116,15 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Right-wing_populism",
  "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
  "next": "Right-Libertarianism, Conservatism, Neoconservatism",
- "stats": { "care": 35, "fairness": 40, "loyalty": 40, "authority": 40, "sanctity": 80, "liberty": 70 }},
+ "stats": { "care": 35, "fairness": 40, "loyalty": 40, "authority": 50, "sanctity": 80, "liberty": 70 }},
  
  //Liberty Oriented
+ { "name": "Classical Liberalism",
+ "link": "https://en.wikipedia.org/wiki/Right-wing_populism",
+ "desc": "Classical liberalism is a political ideology and a branch of liberalism that advocates free markets and civil liberties under the rule of law, with an emphasis on limited government, economic freedom and cultural liberalism.",
+ "next": "Right-Libertarianism, Conservatism, Minarchism",
+ "stats": { "care": 50, "fairness": 55, "loyalty": 40, "authority": 40, "sanctity": 65, "liberty": 80 }},
+ 
  { "name": "Right-Libertarianism",
  "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
  "desc": "Right-Libertarianism is a political philosophy and movement that upholds liberty as a core principle. Right-Libertarians seek to maximize autonomy and political freedom, emphasizing free association, free markets, individualism and voluntary association.",
