@@ -369,3 +369,34 @@ p.tool {
       flex-basis: 100%;
       margin: auto;
   }
+@media only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    width: auto;
+  }
+  html {
+    background-color: rgba(229,229,229,1)
+  }
+  canvas {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .button {
+    min-width: 0px;
+    max-width: 80%;
+    width: 80%;
+    font-size: 2.5em !important; 
+    margin: 
+  }
+  p.question {
+    min-height: 224px;
+    min-width: 0px;
+    max-width: 80%;
+    width: auto;
+    font-size: 3.5em !important;
+  }
+  .small_button, .small_button_off {
+    font-size: 2em;
+  }
+}
