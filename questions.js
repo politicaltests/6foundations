@@ -41,7 +41,7 @@ questions = [
 { "question": "Whether or not a person showed love for their country", "effect": {
   "care": 0, "fairness": 0, "loyalty": 5 }},
 
-{ "question": "Whether or not people are willing to sacrifice themselves for their community or country", "effect": {
+{ "question": "Whether or not people are willing to sacrifice themselves for their community", "effect": {
   "care": 0, "fairness": 0, "loyalty": 5 }},
     
 { "question": "How many people are voluntarily joining the military", "effect": {
