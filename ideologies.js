@@ -91,7 +91,7 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Libertarian_socialism",
  "desc": "Anarcho-Mutualism is an anarchist school of thought and economic theory that advocates a socialist society based on free markets and usufructs, i.e. occupation and use property norms. One implementation of this system involves the establishment of a mutual-credit bank that would lend to producers at a minimal interest rate, just high enough to cover administration.",
  "next": "Anarcho-Communism, Anarcho-Capitalism, Libertarian Market Socialism",
- "stats": { "care": 50, "fairness": 70, "loyalty": 25, "authority": 0, "sanctity": 25, "liberty": 100 }},
+ "stats": { "care": 50, "fairness": 65, "loyalty": 25, "authority": 0, "sanctity": 25, "liberty": 100 }},
  
  //Sanctity Oriented
  { "name": "Conservatism",
@@ -123,37 +123,49 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
  "desc": "Right-Libertarianism is a political philosophy and movement that upholds liberty as a core principle. Right-Libertarians seek to maximize autonomy and political freedom, emphasizing free association, free markets, individualism and voluntary association.",
  "next": "Bleeding Heart Libertarianism, Paleolibertarianism, Minarchism, Objectivism",
- "stats": { "care": 35, "fairness": 42, "loyalty": 25, "authority": 30, "sanctity": 40, "liberty": 85 }},
+ "stats": { "care": 35, "fairness": 22, "loyalty": 25, "authority": 10, "sanctity": 40, "liberty": 85 }},
  
  { "name": "Bleeding-Heart Libertarianism",
  "link": "https://en.wikipedia.org/wiki/Neoclassical_liberalism",
  "desc": "Bleeding-Heart Libertarianism is a libertarian political philosophy that focuses on the support for civil liberties and free markets and the concern for social justice and the well-being of the disadvantaged.",
  "next": "Right-Libertarianism, Paleolibertarianism, Minarchism, Objectivism",
- "stats": { "care": 45, "fairness": 42, "loyalty": 25, "authority": 30, "sanctity": 20, "liberty": 85 }},
+ "stats": { "care": 45, "fairness": 22, "loyalty": 25, "authority": 10, "sanctity": 20, "liberty": 85 }},
  
  { "name": "Paleolibertarianism",
  "link": "https://en.wikipedia.org/wiki/Paleolibertarianism",
  "desc": "Paleolibertarianism is a variant of Libertarianism which stresses inherent incompatibility between progressivism and the concept of liberty, as well as a focus on the importance of inherited culture as a means of maintaining order.",
  "next": "Right-Libertarianism, Bleeding Heart Libertarianism, Minarchism, Objectivism",
- "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 30, "sanctity": 70, "liberty": 85 }},
+ "stats": { "care": 35, "fairness": 20, "loyalty": 25, "authority": 15, "sanctity": 70, "liberty": 85 }},
  
  { "name": "Minarchism",
  "link": "https://en.wikipedia.org/wiki/Night-watchman_state",
  "desc": "Minarchism advocates for a state that acts only as an enforcer of the non-aggression principle by providing citizens with the military, the police, and courts, thereby protecting them from aggression, theft, breach of contract, fraud, and enforcing property laws.",
  "next": "Anarcho-Capitalism, Objectivism, Right-Libertarianism",
- "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 10, "sanctity": 40, "liberty": 92 }},
+ "stats": { "care": 35, "fairness": 20, "loyalty": 25, "authority": 5, "sanctity": 40, "liberty": 92 }},
  
  { "name": "Anarcho-Capitalism",
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
  "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
  "next": "Anarcho-Capitalism, Paleolibertarianism, Bleeding Heart Libertarianism, Minarchism",
- "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 10, "sanctity": 40, "liberty": 100 }},
+ "stats": { "care": 35, "fairness": 20, "loyalty": 25, "authority": 0, "sanctity": 40, "liberty": 100 }},
  
  { "name": "Objectivism",
  "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
  "desc": "Right-Libertarianism is a political philosophy and movement that upholds liberty as a core principle. Right-Libertarians seek to maximize autonomy and political freedom, emphasizing free association, free markets, individualism and voluntary association.",
  "next": "Bleeding Heart Libertarianism, Paleolibertarianism, Anarcho-Capitalism",
  "stats": { "care": 15, "fairness": 10, "loyalty": 25, "authority": 30, "sanctity": 40, "liberty": 85 }},
+ 
+ { "name": "Anarchism (Without Adjectives)",
+ "link": "https://en.wikipedia.org/wiki/Anarchism",
+ "desc": "Anarchism is a political philosophy and movement that is sceptical of authority and rejects all involuntary, coercive forms of hierarchy. Anarchism calls for the abolition of the state, which it holds to be undesirable, unnecessary, and harmful.",
+ "next": "Anarcho-Mutualism, Social Libertarianism, Anarcho-Capitalism, Anarcho-Communism",
+ "stats": { "care": 45, "fairness": 40, "loyalty": 25, "authority": 0, "sanctity": 40, "liberty": 100 }},
+ 
+ { "name": "Social Libertarianism",
+ "link": "https://polcompball.miraheze.org/wiki/Social_Libertarianism",
+ "desc": "Social Libertarianism is an ideology that advocates for a robust decentralized government, free markets, and social welfare. It believes in a small government that sets up welfare for the poor, and many Social Libertarians wish to do this by implementing a Universal Basic Income.",
+ "next": "Bleeding Heart Libertarianism, Right-Libertarianism, Anarchism, Libertarian Socialism",
+ "stats": { "care": 55, "fairness": 40, "loyalty": 25, "authority": 10, "sanctity": 40, "liberty": 85 }},
  
  //Loyalty-Authority Oriented
  { "name": "Fascism",
