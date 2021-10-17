@@ -20,7 +20,7 @@ questions = [
   
   
 //Sanctity  
-{ "question": "Some acts are wrong because they are unnatural.", "effect": {
+{ "question": "A libertine lifestyle often leads to the degradation of a person.", "effect": {
   "authority": 0, "sanctity": 5, "liberty": 0 }},
   
 { "question": "Chastity is an important virtue.", "effect": {
@@ -39,7 +39,6 @@ questions = [
   "authority": 0, "sanctity": 5, "liberty": 0 }},
   
 //Liberty
-
 { "question": "A central authority (i.e. the government) is unnecessary, and should be abolished.", "effect": {
   "authority": 0, "sanctity": 0, "liberty": 5 }},
   
