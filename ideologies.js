@@ -147,7 +147,7 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
  "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
  "next": "Anarcho-Capitalism, Paleolibertarianism, Bleeding Heart Libertarianism, Minarchism",
- "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 0, "sanctity": 40, "liberty": 100 }},
+ "stats": { "care": 35, "fairness": 40, "loyalty": 25, "authority": 10, "sanctity": 40, "liberty": 100 }},
  
  { "name": "Objectivism",
  "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
