@@ -22,7 +22,7 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Progressive_conservatism",
  "desc": "Progressive conservatism is a political ideology which combines conservative and progressive policies. It believes that social reform and progression in areas such as science, economics, education, technology and medicine were necessary to improve human living conditions, but also supports the preservation of tradition.",
  "next": "Christian Democracy, Conservatism, Progressivism",
- "stats": { "care": 70, "fairness": 70, "loyalty": 45, "authority": 55, "sanctity": 70, "liberty": 45 }},
+ "stats": { "care": 50, "fairness": 50, "loyalty": 50, "authority": 50, "sanctity": 50, "liberty": 50 }},
  
  //Fairness Oriented
  { "name": "Democratic Socialism",
@@ -110,7 +110,7 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Right-wing_populism",
  "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
  "next": "Neoconservatism, Conservatism, Fiscal Conservatism",
- "stats": { "care": 40, "fairness": 60, "loyalty": 60, "authority": 60, "sanctity": 80, "liberty": 60 }},
+ "stats": { "care": 40, "fairness": 60, "loyalty": 80, "authority": 60, "sanctity": 80, "liberty": 40 }},
  
  { "name": "Fiscal Conservatism",
  "link": "https://en.wikipedia.org/wiki/Right-wing_populism",
