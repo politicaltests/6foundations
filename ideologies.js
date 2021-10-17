@@ -12,17 +12,17 @@ ideologies = [
  "next": "Democratic Socialism, Christian Democracy, Left-Wing Populism",
  "stats": { "care": 85, "fairness": 80, "loyalty": 35, "authority": 50, "sanctity": 20, "liberty": 35 }},
  
- { "name": "Christian Democracy",
+ { "name": "Distributism",
  "link": "https://en.wikipedia.org/wiki/Christian_democracy",
- "desc": "Christian democracy is a political ideology based on modern democratic ideas, socialist ethics, and traditional Christian values. It tends to be Center-Left in terms of economic and foreign policy, but tends to be Center-Right in terms of social issues.",
+ "desc": "Distributism is an economic theory asserting that the world's productive assets should be widely owned rather than concentrated. Distributism views both laissez-faire capitalism and state socialism as equally flawed and exploitative, favoring economic mechanisms such as cooperatives and member-owned mutual organizations as well as small businesses and large-scale competition law reform such as antitrust regulations.",
  "next": "Social Democracy, Progressive Conservatism, Left-Wing Populism",
- "stats": { "care": 65, "fairness": 70, "loyalty": 45, "authority": 55, "sanctity": 60, "liberty": 35 }},
+ "stats": { "care": 65, "fairness": 70, "loyalty": 45, "authority": 55, "sanctity": 90, "liberty": 35 }},
  
  { "name": "Progressive Conservatism",
  "link": "https://en.wikipedia.org/wiki/Progressive_conservatism",
  "desc": "Progressive conservatism is a political ideology which combines conservative and progressive policies. It believes that social reform and progression in areas such as science, economics, education, technology and medicine were necessary to improve human living conditions, but also supports the preservation of tradition.",
  "next": "Christian Democracy, Conservatism, Progressivism",
- "stats": { "care": 70, "fairness": 70, "loyalty": 45, "authority": 55, "sanctity": 50, "liberty": 45 }},
+ "stats": { "care": 70, "fairness": 70, "loyalty": 45, "authority": 55, "sanctity": 70, "liberty": 45 }},
  
  //Fairness Oriented
  { "name": "Democratic Socialism",
