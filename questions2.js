@@ -40,13 +40,13 @@ questions = [
   
 //Liberty
 
-{ "question": "The existence of a central authority (i.e. the government) is unnecessary.", "effect": {
+{ "question": "A central authority (i.e. the government) is unnecessary, and should be abolished.", "effect": {
   "authority": 0, "sanctity": 0, "liberty": 5 }},
   
 { "question": "Liberty is more important than security.", "effect": {
   "authority": 0, "sanctity": 0, "liberty": 5 }},
   
-{ "question": "Society is nothing but a group of individuals, it is not a single entity.", "effect": {
+{ "question": "When tyranny becomes law, resistance becomes duty.", "effect": {
   "authority": 0, "sanctity": 0, "liberty": 5 }},
   
 { "question": "Human rights are natural and inalienable, they aren't given by the government.", "effect": {
