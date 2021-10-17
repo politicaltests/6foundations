@@ -167,7 +167,7 @@ ideologies = [
  "next": "Bleeding Heart Libertarianism, Right-Libertarianism, Anarchism, Libertarian Socialism",
  "stats": { "care": 55, "fairness": 40, "loyalty": 25, "authority": 10, "sanctity": 40, "liberty": 85 }},
  
- //Loyalty-Authority Oriented
+ //Loyalty Oriented
  { "name": "Fascism",
  "link": "https://en.wikipedia.org/wiki/Fascism",
  "desc": "Fascism is a form of totalitarian ultranationalism characterized by dictatorial power, the prioritization of the nation above all else, and the strong regimentation of society and of the economy.",
@@ -179,5 +179,17 @@ ideologies = [
  "desc": "National Socialism, often shortened as Nazism, is a totalitarian ideology that has disdain for liberal democracy and the parliamentary system, and advocates for ideas like antisemitism, anti-communism, scientific racism, German nationalism, and eugenics.",
  "next": "Fascism, National Bolshevism, Stalinism",
  "stats": { "care": 0, "fairness": 0, "loyalty": 100, "authority": 100, "sanctity": 100, "liberty": 0 }},
+ 
+ { "name": "Absolute Monarchism",
+ "link": "https://en.wikipedia.org/wiki/Absolute_monarchy",
+ "desc": "Absolute Monarchism is a form of monarchy in which the monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature, or unwritten customs.",
+ "next": "Authoritarian Capitalism, Fascism, Right-Wing Populism",
+ "stats": { "care": 55, "fairness": 50, "loyalty": 100, "authority": 100, "sanctity": 90, "liberty": 0 }},
+ 
+ { "name": "Authoritarian Capitalism",
+ "link": "https://en.wikipedia.org/wiki/Authoritarian_capitalism",
+ "desc": "Authoritarian Capitalism is an economic system in which a capitalist market economy exists alongside an authoritarian government. It combines private property and the functioning of market forces with repression of dissent, restrictions on freedom of speech and either a lack of elections or an electoral system with a single dominant political party.",
+ "next": "Absolute Monarchism, Fascism, Right-Wing Populism",
+ "stats": { "care": 30, "fairness": 30, "loyalty": 90, "authority": 100, "sanctity": 90, "liberty": 0 }},
  
 ];
