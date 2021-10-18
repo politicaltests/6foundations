@@ -48,19 +48,19 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Marxism-Leninism",
  "desc": "Marxist–Leninists support proletarian internationalism and socialist democracy, and oppose anarchism, fascism, imperialism, and liberal democracy. Marxism–Leninism holds that a two-stage communist revolution is needed to replace capitalism.",
  "next": "State Socialism, Stalinism, National Bolshevism",
- "stats": { "care": 60, "fairness": 100, "loyalty": 60, "authority": 80, "sanctity": 50, "liberty": 30 }},
+ "stats": { "care": 60, "fairness": 100, "loyalty": 85, "authority": 80, "sanctity": 50, "liberty": 30 }},
  
  { "name": "Stalinism",
  "link": "https://en.wikipedia.org/wiki/Stalinism",
  "desc": "Stalinism is the means of governing and policies which were implemented in the Soviet Union from 1927 to 1953 by Joseph Stalin. It included the creation of a one-party totalitarian police state; rapid industrialization; the theory of socialism in one country, and the collectivization of agriculture.",
  "next": "Marxism-Leninism, State Socialism, National Bolshevism",
- "stats": { "care": 30, "fairness": 100, "loyalty": 80, "authority": 100, "sanctity": 60, "liberty": 0 }},
+ "stats": { "care": 30, "fairness": 100, "loyalty": 95, "authority": 100, "sanctity": 60, "liberty": 0 }},
  
  { "name": "National Bolshevism",
  "link": "https://en.wikipedia.org/wiki/Stalinism",
  "desc": "National Bolshevism advocates for a Bolshevik-inspired system of governance, which includes a socialist economy and a strong centralised state, in combination with extreme nationalism and support for traditional values, borrowing some elements and aesthetics from fascism.",
  "next": "Marxism-Leninism, State Socialism, Fascism",
- "stats": { "care": 30, "fairness": 100, "loyalty": 80, "authority": 100, "sanctity": 90, "liberty": 0 }},
+ "stats": { "care": 30, "fairness": 100, "loyalty": 100, "authority": 100, "sanctity": 90, "liberty": 0 }},
  
  //Fairness-Liberty Oriented
  { "name": "Council Communism",
