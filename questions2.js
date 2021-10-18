@@ -3,7 +3,7 @@ questions = [
 { "question": "Authorities or hierarchies will inevitably form in every society.", "effect": {
   "authority": 5, "sanctity": 0, "liberty": 0 }},
   
-{ "question": "People should conform to the traditions of society.", "effect": {
+{ "question": "The act of questioning authority is morally wrong.", "effect": {
   "authority": 5, "sanctity": 0, "liberty": 0 }},
   
 { "question": "If I were a soldier and disagreed with my commanding officer’s orders, I would obey anyway because that is my duty.", "effect": {
