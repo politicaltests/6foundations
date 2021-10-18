@@ -129,13 +129,13 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
  "desc": "Right-Libertarianism is a political philosophy and movement that upholds liberty as a core principle. Right-Libertarians seek to maximize autonomy and political freedom, emphasizing free association, free markets, individualism and voluntary association.",
  "next": "Bleeding Heart Libertarianism, Paleolibertarianism, Minarchism, Objectivism",
- "stats": { "care": 35, "fairness": 22, "loyalty": 25, "authority": 10, "sanctity": 40, "liberty": 85 }},
+ "stats": { "care": 35, "fairness": 22, "loyalty": 25, "authority": 15, "sanctity": 40, "liberty": 85 }},
  
  { "name": "Bleeding-Heart Libertarianism",
  "link": "https://en.wikipedia.org/wiki/Neoclassical_liberalism",
  "desc": "Bleeding-Heart Libertarianism is a libertarian political philosophy that focuses on the support for civil liberties and free markets and the concern for social justice and the well-being of the disadvantaged.",
  "next": "Right-Libertarianism, Paleolibertarianism, Minarchism, Objectivism",
- "stats": { "care": 45, "fairness": 22, "loyalty": 25, "authority": 10, "sanctity": 20, "liberty": 85 }},
+ "stats": { "care": 45, "fairness": 22, "loyalty": 25, "authority": 15, "sanctity": 20, "liberty": 85 }},
  
  { "name": "Paleolibertarianism",
  "link": "https://en.wikipedia.org/wiki/Paleolibertarianism",
@@ -147,7 +147,7 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Night-watchman_state",
  "desc": "Minarchism advocates for a state that acts only as an enforcer of the non-aggression principle by providing citizens with the military, the police, and courts, thereby protecting them from aggression, theft, breach of contract, fraud, and enforcing property laws.",
  "next": "Anarcho-Capitalism, Objectivism, Right-Libertarianism",
- "stats": { "care": 35, "fairness": 20, "loyalty": 25, "authority": 5, "sanctity": 40, "liberty": 92 }},
+ "stats": { "care": 35, "fairness": 20, "loyalty": 25, "authority": 8, "sanctity": 40, "liberty": 92 }},
  
  { "name": "Anarcho-Capitalism",
  "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
