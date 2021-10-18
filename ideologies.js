@@ -159,7 +159,7 @@ ideologies = [
  "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
  "desc": "Right-Libertarianism is a political philosophy and movement that upholds liberty as a core principle. Right-Libertarians seek to maximize autonomy and political freedom, emphasizing free association, free markets, individualism and voluntary association.",
  "next": "Bleeding Heart Libertarianism, Paleolibertarianism, Anarcho-Capitalism",
- "stats": { "care": 15, "fairness": 10, "loyalty": 25, "authority": 30, "sanctity": 40, "liberty": 85 }},
+ "stats": { "care": 15, "fairness": 10, "loyalty": 25, "authority": 15, "sanctity": 40, "liberty": 85 }},
  
  { "name": "Anarchism (Without Adjectives)",
  "link": "https://en.wikipedia.org/wiki/Anarchism",
@@ -171,7 +171,7 @@ ideologies = [
  "link": "https://polcompball.miraheze.org/wiki/Social_Libertarianism",
  "desc": "Social Libertarianism is an ideology that advocates for a robust decentralized government, free markets, and social welfare. It believes in a small government that sets up welfare for the poor, and many Social Libertarians wish to do this by implementing a Universal Basic Income.",
  "next": "Bleeding Heart Libertarianism, Right-Libertarianism, Anarchism, Libertarian Socialism",
- "stats": { "care": 55, "fairness": 40, "loyalty": 25, "authority": 10, "sanctity": 40, "liberty": 85 }},
+ "stats": { "care": 55, "fairness": 40, "loyalty": 25, "authority": 15, "sanctity": 40, "liberty": 85 }},
  
  //Loyalty Oriented
  { "name": "Fascism",
